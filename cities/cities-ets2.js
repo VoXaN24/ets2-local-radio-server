@@ -395,6 +395,12 @@ var country_properties = {
         code: "md",
         relative_radius: 0.75,
     },
+    "morocco": {
+        name: "Maroc",
+        name_english: "Morocco",
+        code: "ma",
+        relative_radius: 0.75,
+        },
     "netherlands": {
         name: "Nederland",
         name_english: "Netherlands",
@@ -11254,6 +11260,16 @@ var cities_japan = [
         "z": "74084.9"
     }
 ];
+var cities_magrebmap = [
+    {
+        "gameName": "port med tanger",
+        "realName": "Port med tanger",
+        "country": "morocco",
+        "x": "-79516.82",
+        "y": "2.094983",
+        "z": "72633.32"
+    }
+]
 
 
 cities = cities.concat(cities_rusmap); //RusMap cities
@@ -11269,13 +11285,14 @@ cities = cities.concat(cities_btbs); //Beyond the Baltic Sea DLC
 cities = cities.concat(cities_balkan_e); //Road to the Black Sea DLC
 cities = cities.concat(cities_italy_map); //Italy Map / Italy DLC
 cities = cities.concat(cities_kz); //The Great Steppe
-cities = cities.concat(cities_afromap); //AfroMap
-cities = cities.concat(cities_japan); //AfroMap
+cities = cities.concat(cities_magrebmap); //MagrebMap
+cities = cities.concat(cities_japan); //Japan
 cities = cities.concat(cities_tsm); //TruckSim-Map
 cities = cities.concat(cities_roextended_turkey); //RoExtended Turkey (v2.8)
-//Uncomment the lines below to activate support for Project Balkans/Open Spaces/YKS Turkey:
+//Uncomment the lines below to activate support for Project Balkans/Open Spaces/YKS Turkey/Afromap:
 //cities = cities.concat(cities_projects_balkans); //Project Balkans
 //cities = cities.concat(cities_open_spaces); //Open Spaces
 //cities = cities.concat(cities_yks_turkey); //YKS Turkey
 //cities = cities.concat(cities_yksrsk); //YKSRSK
 //cities = cities.concat(cities_romania_extended); //Romania Extended
+//cities = cities.concat(cities_afromap); //AfroMap
